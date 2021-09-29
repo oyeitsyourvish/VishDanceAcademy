@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Play:wght@700&family=Ubuntu&display=swap');
+
+h1{
+    text-align: center;
+    margin: 15px 0;
+}
+.containerContact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#f2f2ee;
+    height: 85vh;
+}
+
+.containerContact h1{
+    font-family: 'Play', sans-serif;
+}
+.myForm{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.myInput{
+    display: block;
+    width: 50%;
+    text-align: center;
+    height: 50px;
+    margin: 10px;
+    border-radius: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+}
+
+
+.btn{
+    padding: 5px;
+    margin: 15px;
+    width: 120px;
+    border-radius: 7px;
+    font-size: 20px;
+    background: #e33a79;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

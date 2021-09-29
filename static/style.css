@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Play:wght@700&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -10px 10px;
+    margin-right: 25px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #251d1d;
+    padding: 20px;
+    display: flex;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#navbar li{
+    list-style: none;
+    font-size: 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 25px;
+    color: white;
+}
+#navbar li a:hover{
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 9px
+}
+
+
+#introSection{
+    color: white;
+    font-family: 'Play', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 55px;
+    align-items: center;
+    background: url("/static/bg.jpg") center / cover no-repeat;
+    height: 300px;
+    /* background-color: blue; */
+}
+#introSection div.small{
+    font-size: 25px;
+}
+
+#missionSection {
+    height: 370px;
+}
+
+#missionSection {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.card{
+    background: #ffe5f9;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 20%;
+    margin: 23px 11px;
+    height: 300px;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-box{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    margin: 20px 14px;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 7 53px;
+}
+.card-content p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#sponsorSection{
+    height: 250px;
+    margin-top: 40px;
+    background-color: #f8f8f8;
+}
+#sponsorSection h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#sponsors{
+    height: 140px;
+    margin: 15px auto;
+    max-width: 1000px;
+}
+
+.spImg{
+    height: 80%;
+    margin: 36px 51px;
+}
+#footer{
+    display: flex;
+    height: 45px;
+    background-color:#f2f2ee;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}

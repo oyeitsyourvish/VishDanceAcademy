@@ -1,0 +1,17 @@
+{
+  "name": "vish-dance-academy",
+  "version": "1.0.0",
+  "description": "popular dance academy in the world",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VISHgroup",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "pug": "^3.0.2"
+  }
+}

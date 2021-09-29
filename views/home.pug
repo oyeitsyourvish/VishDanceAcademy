@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts 
+  script (src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection 
+        div  Welcome to the Vish Dance Academy 
+        div.small  Eat Sleep Dance and Reapet
+
+    section#missionSection 
+        h2 OUR MISSIONS
+        div.card
+            h3  Dance Perfection
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content 
+                    p This is the best dance academy of the India.
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content 
+                    p This is the best dance academy of the India.
+        div.card
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content 
+                    p This is the best dance academy of the India.
+    section#sponsorSection 
+        h2 OUR SPONSORS 
+        div#sponsors 
+            img(src="/static/img/logo1.png", alt="sponsorimg" class="spImg")
+            img(src="/static/img/logo2.png", alt="sponsorimg" class="spImg")
+            img(src="/static/img/logo3.png", alt="sponsorimg" class="spImg")
+            img(src="/static/img/logo4.png", alt="sponsorimg" class="spImg")
